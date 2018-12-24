@@ -1,11 +1,11 @@
-#use a for loop to print each food, try to modify one item, add code to rewrite the tuple
+# use a for loop to print each food, try to modify one item, add code to rewrite the tuple
 
 buffet = ('salad', 'ham', 'chicken', 'pizza', 'rolls')
 for food in buffet:
-  print(food)
+    print(food)
 
 
-#Cannot modify one item:
+# Cannot modify one item:
 # buffet[0] = ('jello')
 # for food in buffet:
 #   print(food)
@@ -13,4 +13,4 @@ for food in buffet:
 print("\nUpdate buffet menu:")
 buffet = ('salad', 'ham', 'egg salad', 'soup', 'rolls')
 for food in buffet:
-  print(food)
+    print(food)
